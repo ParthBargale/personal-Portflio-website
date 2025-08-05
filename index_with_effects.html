@@ -1,0 +1,113 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Parth Bargale | Web Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+<header class="reveal-top">
+  <div class="logo"><span style="font-weight: 900;">Parth</span>Bargale</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="https://instagram.com/in/parth_bargale" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/parth-bargale" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.github.com/in/ParthBargale" target="_blank"><i class="fab fa-github"></i></a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content reveal-left">
+    <h2>Hi, I'm Parth,</h2>
+    <h1>I’M A WEB DESIGNER</h1>
+    <p>I craft beautiful and functional websites using modern web technologies. Let’s bring your vision to life!</p>
+    <a class="button" href="#projects">View My Projects</a>
+  </div>
+  <div class="hero-avatar reveal-right">
+    <img src="pic.png" alt="Profile Picture">
+  </div>
+</section>
+
+<section id="about" class="reveal-bottom">
+  <h2>About Me</h2>
+  <div class="about">
+    <div class="about-text">
+      <h3>Passionate Developer & Creative Designer</h3>
+      <p>
+        I'm Parth Bargale — a dedicated front-end developer with a passion for building visually stunning, fast, and user-friendly websites.
+        I love bringing creative ideas to life using the latest web technologies. My mission is to design digital experiences that are engaging, accessible, and meaningful.
+      </p>
+      <div class="skills-list">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>GitHub</span>
+        <span>PHP</span>
+        <span>JavaScript</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="projects reveal-left">
+  <h2>My Projects</h2>
+  <div class="projects-container">
+    <div class="project-card">
+      <h3>• Portfolio Website</h3>
+      <p>A personal responsive website to showcase my skills, built with HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="project-card">
+      <h3>• Pharma Healthcare Daily Report</h3>
+      <p>This live project stores daily reports and shows records in a database. It supports multiple user roles such as admin, user, doctor, etc.</p>
+    </div>
+    <div class="project-card">
+      <h3>• Voice Controlled Car with Arduino</h3>
+      <p>Built a car that is automated and voice-controlled using an application and ultrasonic sensors to reduce accident cases.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact reveal-right">
+  <h2>Contact Me</h2>
+  <p>Have a project in mind or want to work together? Fill out the form below or reach out via social media.</p>
+  <form action="https://formspree.io/f/mjkorpgp" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer class="reveal-bottom">
+  <div class="footer-left">
+    <p><strong>Parth Bargale</strong></p>
+    <p>Pune, Maharashtra, India</p>
+    <p>Email: parthbargale@example.com</p>
+    <p>Contact: +91-9876543210</p>
+  </div>
+  <div class="footer-right">
+    <a href="https://instagram.com/in/parth_bargale" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/parth-bargale" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.github.com/in/ParthBargale" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+</footer>
+
+<script>
+  ScrollReveal().reveal('.reveal-top', { origin: 'top', distance: '50px', duration: 1000, delay: 100 });
+  ScrollReveal().reveal('.reveal-bottom', { origin: 'bottom', distance: '50px', duration: 1000, delay: 100 });
+  ScrollReveal().reveal('.reveal-left', { origin: 'left', distance: '50px', duration: 1000, delay: 100 });
+  ScrollReveal().reveal('.reveal-right', { origin: 'right', distance: '50px', duration: 1000, delay: 100 });
+</script>
+
+</body>
+</html>
